@@ -1,4 +1,4 @@
-# CS50’s Introduction to Programming with Python
+# CS50’s Introduction to Computer Science
 ![Certificate](Certificate.png)
 
 **Course Link:-** https://cs50.harvard.edu/python/2022/
