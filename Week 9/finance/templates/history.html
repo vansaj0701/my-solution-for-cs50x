@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Symbols</th>
+                <th>Shares</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for data in portfolio %}
+                <tr>
+                    <td>{{ data.symbol }}</td>
+                    <td>{{ data.shares }}</td>
+                    {% if data.price == None %}
+                        <td>{{ data.price }}</td>
+                    {% else %}
+                        <td>{{ data.price | usd }}</td>
+                    {% endif %}
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+{% endblock %}

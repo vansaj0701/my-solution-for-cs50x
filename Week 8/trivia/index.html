@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            // TODO: Add code to check answers to questions
+
+            document.addEventListener("DOMContentLoaded", function() {
+                let correct = document.querySelector(".correct");
+                let incorrect = document.querySelectorAll(".incorrect");
+                let response = document.querySelector(".response");
+                let input = document.querySelector("input");
+                let answer = document.querySelector(".answer");
+                let freeResponse = document.querySelector(".free-response");
+
+                correct.addEventListener('click', function(event) {
+                    correct.style.backgroundColor = "green";
+                    response.innerHTML = "Correct!";
+                })
+
+                for (let i = 0; i < incorrect.length; i++) {
+                    incorrect[i].addEventListener('submit', function(event) {
+                        incorrect[i].style.backgroundColor = "red";
+                        response.innerHTML = "Incorrect!";
+                    })
+                }
+
+                answer.addEventListener('click', function(event) {
+                    if (input.value.toLowerCase() === 'jupiter') {
+                        input.style.backgroundColor = "green";
+                        freeResponse.innerHTML = "Correct!";
+                    } else {
+                        input.style.backgroundColor = "red";
+                        freeResponse.innerHTML = "InCorrect!";
+                    }
+                })
+
+            })
+        </script>
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>Who was the first woman to win a Nobel Prize?</h3>
+                <button type="button" class="correct">Marie Curie</button>
+                <button type="button" class="incorrect">Rosalind Franklin</button>
+                <button type="button" class="incorrect">Ada Lovelace</button>
+                <button type="button" class="incorrect">Dorothy Crowfoot Hodgkin</button>
+                <p class="response"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>What is the largest planet in our solar system?</h3>
+                <input type='text' placeholder='Response'>
+                <button type='button' class='answer'>Check Answer</button>
+                <p class='free-response'></p>
+            </div>
+        </div>
+    </body>
+
+</html>
