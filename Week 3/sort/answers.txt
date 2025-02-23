@@ -1,0 +1,11 @@
+sort1 uses: Bubble Sort
+
+How do you know?: High difference in time for random and sorted numbers
+
+sort2 uses: Merge Sort
+
+How do you know?: It takes less time for both the random and sorted numbers
+
+sort3 uses: Selection Sort
+
+How do you know?: Nearly same for both random and sorted numbers
