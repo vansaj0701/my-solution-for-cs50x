@@ -1,7 +1,7 @@
 # CS50’s Introduction to Computer Science
 ![Certificate](certificate.png)
 
-**Course Link:-** [https://cs50.harvard.edu/python/2022/](https://cs50.harvard.edu/x/2025/)
+**Course Link:-** [https://cs50.harvard.edu/x/2025/](https://cs50.harvard.edu/x/2025/)
 
 ## Problem Sets
 ### [Week 0 - Scratch](/Week%200/)
