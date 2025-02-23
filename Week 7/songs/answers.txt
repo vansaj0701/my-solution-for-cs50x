@@ -1,0 +1,6 @@
+1. To characterize the listener's audio aura from their top 100 songs, we would calculate the average energy, valence, and danceability values.
+
+2. better ways to calculate aura:-
+a) listener's playtime
+b) types of songs
+c) common genre between among the song
