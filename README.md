@@ -1,10 +1,10 @@
 # CS50’s Introduction to Computer Science
-![Certificate](Certificate.png)
+![Certificate](certificate.png)
 
-**Course Link:-** https://cs50.harvard.edu/python/2022/
+**Course Link:-** [https://cs50.harvard.edu/python/2022/](https://cs50.harvard.edu/x/2025/)
 
 ## Problem Sets
-### [Week 0 - Functions, Variables](/Week%200/)
+### [Week 0 - Scratch](/Week%200/)
 - [Indoor Voice](/Week%200/indoor.py)
 - [Playback Speed](/Week%200/playback/)
 - [Making Faces](/Week%200/faces)
