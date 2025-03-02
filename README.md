@@ -1,5 +1,5 @@
 # CS50’s Introduction to Computer Science
-![Certificate](certificate.png)
+![Certificate](Certificate.png)
 
 **Course Link:-** [https://cs50.harvard.edu/x/2025/](https://cs50.harvard.edu/x/2025/)
 
